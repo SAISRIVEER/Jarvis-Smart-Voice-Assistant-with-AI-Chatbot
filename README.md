@@ -1,4 +1,3 @@
-# VOICE-ASSISTANT
 # Jarvis: Smart Voice Assistant with AI Chatbot
 Jarvis is a voice-activated smart assistant designed to help you with common tasks like opening websites, telling the time, and answering general questions. It integrates speech recognition, text-to-speech synthesis, and a conversational AI chatbot to provide a hands-free experience.
 
