@@ -128,6 +128,11 @@ while True:
         speech.say(f"Sir, the time is {hours} {mins}.")
         speech.runAndWait()
 
+    elif "the date" in query:  # Check if the user asks for the date
+        today = datetime.datetime.now().strftime("%B %d, %Y")  # Format the date as "Month Day, Year"
+        speech.say(f"Sir, today's date is {today}.")  # Announce the date
+        speech.runAndWait()  # Wait for the speech to finish
+        
     elif "jarvis quit" in query:
         speech.say("Goodbye, Sir!")
         speech.runAndWait()
